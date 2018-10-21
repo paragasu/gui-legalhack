@@ -260,6 +260,7 @@
       <v-layout align-content-end justify-end row>
         <v-flex>
           <v-btn color="primary" @click.stop="next()"> Save &amp; Next </v-btn>
+          <a v-if="el > 5" href="http://paragasu.github.io/gui-legalhack/docs/#/view">  View report </a>
         </v-flex>
       </v-layout>
     </v-container>
@@ -335,7 +336,11 @@ export default {
           })
         }
 
-        if(this.el < 6){
+        if(this.el === 6){
+            this.$router.push({ path: '/view' })
+        }
+
+        if(this.el < 7){
           let id = 'form' + this.el
           if(this.$refs[id] && this.$refs[id].validate()){
             this.el++
