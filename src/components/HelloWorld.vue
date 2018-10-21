@@ -330,7 +330,8 @@ export default {
           post('/documents/create_multiple.json', params, (err, res) => {
             console.debug('result', err || res)
             this.sharedState.documents = res
-            this.$router.push({ path: '/view' })
+            this.$router.push({ path: '/gui-legalhack/docs/#/view' })
+            
           })
         }
 
