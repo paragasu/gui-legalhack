@@ -6,6 +6,7 @@ import View from './components/View.vue'
 Vue.use(Router)
 
 export default new Router({
+  base: '/gui-legalhacks/docs',
   routes: [
     {
       path: '/',
