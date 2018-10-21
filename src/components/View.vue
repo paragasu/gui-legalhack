@@ -26,10 +26,10 @@
   <div>
   <div class="title mt-4"> Documents </div>
     <div> 
-      <router-link to="https://lawframe-development.herokuapp.com/documents/10.pdf'"> Borang 16-N </router-link> <br/>
-      <router-link to="https://lawframe-development.herokuapp.com/documents/11.pdf'"> Borang 14-A </router-link> <br/>
-      <router-link to="https://lawframe-development.herokuapp.com/documents/12.pdf'"> Profile </router-link> <br/>
-      <router-link to="https://lawframe-development.herokuapp.com/documents/13.pdf'"> Sales and purchase agreement </router-link> <br/>
+      <a target="_blank" href="https://lawframe-development.herokuapp.com/documents/10.pdf'"> Borang 16-N </a> <br/>
+      <a target="_blank" href="https://lawframe-development.herokuapp.com/documents/11.pdf'"> Borang 14-A </a> <br/>
+      <a target="_blank" href="https://lawframe-development.herokuapp.com/documents/12.pdf'"> Profile </a> <br/>
+      <a target="_blank" href="https://lawframe-development.herokuapp.com/documents/13.pdf'"> Sales and purchase agreement </a> <br/>
     </div>
   </div>
   <div>
